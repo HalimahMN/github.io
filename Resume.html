@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>My Resume</title>
+	<link rel="stylesheet" type="text/css" href="Resume.css">
+  <link href="https://fonts.googleapis.com/css?family=Pacifico" rel="stylesheet">
+  <link rel="stylesheet" type="text/css" href="bootstrap-4.0.0-beta.2/scss/bootstrap.scss">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js" integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ" crossorigin="anonymous"></script>
+</head>
+<body>
+
+  <header>
+  	<img src="avengers_logo.jpg">
+  	<h1>Halimah Nordin</h1>
+  	
+  </header>
+
+  <main class="main">
+    <h2>About Me!</h2>
+    <p class="info">Hi! I'm Halimah, a fresh grad student from Yarmouk Univerity, Jordan. I have a bachelor degree in Arabic literature. I'm trying out coding to enhance my skills.</p>
+  </main>
+
+  <section>
+    <h2>Hobbies</h2>
+  		<p>Watch Movies</p><br>
+  		<p>Cycling</p><br>
+  		<p>Travelling</p><br>
+  </section>
+
+  <div id="contactme" class="hidden">
+  	<h2>Contact</h2>
+
+    	<p>Email</p><br>
+    	<p>facebook</p><br>
+    	<p>Twitter</p><br> 
+
+  </div>
+  <button id="comment">leave a comment</button>
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh" crossorigin="anonymous"></script>
+
+<script>
+  $("#contactme").hidden();
+</script>
+
+<script>
+   $(document).ready(function(){
+    $("#document").click(function(){
+      $('#contactme').removeClass('hidden');
+    })
+   })  
+
+</script>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
